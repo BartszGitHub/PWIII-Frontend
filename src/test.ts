@@ -18,3 +18,12 @@ getTestBed().initTestEnvironment(
 const context = require.context('./', true, /\.spec\.ts$/);
 // And load the modules.
 context.keys().map(context);
+
+export class Cartao {
+
+  public numero_cartao : string;
+  public nome_cartao : string;
+  public data_vencimento : number;
+  public codigo_verificacao : number;
+
+}
